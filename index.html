@@ -13,13 +13,39 @@
 </head>
 <body>
 
-<!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-  <div class="bgimg"></div>
+
+  <div class="img-nav">
+
+    <div class="main-img">
+      <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+        <div class="bgimg"></div>
+      </nav>
+      </div>
+
+
+
+  <nav class="navbar-burger-mn">
+    <div class="back-color-burger">
+    <button class="burger-btn-burger-mn"><input type="checkbox" role="button" aria-label="Display the menu" class="menu">
+    </button>
+    <ul class="nav-links-burger-mn">
+      
+        <li><a href="#home">Main</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+      
+    </ul>
+  </div>
 </nav>
+<!-- _____________________________ IMG__start_________________________ -->
+ 
+</div>
+
+<!-- _____________________________IMG__END__________________________________ -->
 
 <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+<!-- <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
     <i class="fa fa-remove"></i>
   </a>
@@ -29,20 +55,20 @@
     <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
     <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
   </div>
-</nav>
+</nav> -->
 
 <!-- Page Content -->
 <div class="w3-main w3-padding-large" style="margin-left:40%">
 
   <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  <!-- <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span> -->
 
   <!-- Header -->
   <header class="w3-container w3-center" style="padding:128px 16px" id="home">
     <h1 class="w3-jumbo"><b>Bohdan Voitenkov</b></h1>
     <p>Frontend and Backend developer</p>
-    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <img src="./img/main-photo-blk.JPG" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="./img/main-photo-blk.JPG" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
     <!-- <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
       <i class="fa fa-download"></i> Download Resume -->
     </button>
@@ -71,7 +97,7 @@
         </div>
         <div class="links">
           <p>My team project - lybrary</p>
-          <a href="https://dipsikeducation.github.io/kilobyte/" target="_blank" class="button type--B">
+          <a href="https://dipsikeducation.github.io/kilobyte/" target="_blank" class="button type--A">
             <div class="button__line"></div>
             <div class="button__line"></div>
             <span class="button__text">Lybrary</span>
@@ -81,7 +107,7 @@
         </div>
         <div class="links">
           <p>My own project</p>
-          <a href="https://kikro1.github.io/goit-markup-hw-04/" class="button type--B">
+          <a href="https://kikro1.github.io/goit-markup-hw-04/" class="button type--A">
             <div class="button__line"></div>
             <div class="button__line"></div>
             <span class="button__text">HTML & CSS Project</span>
@@ -105,7 +131,7 @@
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
-    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="education">
       <h2>Education</h2>
       <hr class="w3-opacity">
       <p> 
@@ -120,6 +146,9 @@ Currently studying in Buckinghamshire college in Aylesbury  <br>
 IT curses “GoIt” - frontend and backend development – 10 months  <br>
       </p>
       </div>
+      
+    </div>
+    <div class="skills" id="skills">
     <h3 class="w3-padding-16">My Skills</h3>
     <p class="w3-wide">HTML </p>
     <div class="w3-light-grey">
@@ -133,7 +162,7 @@ IT curses “GoIt” - frontend and backend development – 10 months  <br>
     <div class="w3-light-grey">
       <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:20%">20%</div>
     </div><br>
-    </div>
+  </div>
 
 
     
@@ -161,3 +190,6 @@ IT curses “GoIt” - frontend and backend development – 10 months  <br>
 
   </div> 
 
+  <script src="script.js"></script>
+
+</body> 
