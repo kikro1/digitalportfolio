@@ -4,13 +4,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url(/img/main-photo-blk.JPG);  */
-    height: 100vh; /* Высота 100% экрана */
-    width: 100%; /* Ширина 100% */
-    position: relative; /* Для наложения на другие элементы */
-    top: 0; /* Начало сверху */
-    left:  0;/* Начало слева */
-    z-index: 20; /* Подложка под меню */
+    background-image: url(./img/mainphotoblk.jpg); 
+    height: 100%; 
+    width: 100%; 
+    position: relative; 
+    top: 0; 
+    left:  0;
+    z-index: 20; 
 }
 
 .img-nav {
