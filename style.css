@@ -268,6 +268,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   .links {
     padding: 15px;
+    margin: 15px;
+  }
+  .links p, h3{
+    padding-bottom: 10px;
   }
 
 
@@ -282,11 +286,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     flex-direction: row;
     display: flex;
     justify-content: flex-start; 
-    align-items: center;
     padding: 20px;
     /* background-color: rgba(51, 51, 51, 0.8); */
     position: relative; 
     z-index: 10; 
+    align-items:start;
 }
 
 
@@ -309,6 +313,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 .nav-links-burger-mn li {
     margin: 0 15px;
+    
 }
 
 /* .nav-links-burger-mn a {
@@ -332,6 +337,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         z-index: -2;
         color: white;
         
+        
     }
     
 
@@ -341,17 +347,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     .nav-links-burger-mn.open-burger-mn {
         display: flex;
+ 
         
 
     }
     .nav-links-burger-mn.open-burger-mn a{
     background-color: #b3b3b3;
+    
     }
 
 
 
     .nav-links-burger-mn li {
         margin: 10px 0;
+      
     }
 
     .nav-links-burger-mn a {
