@@ -1,29 +1,16 @@
+  /* ____________________________general__start__________________________ */
+
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
-.bgimg {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(./img/mainphotoblk.jpg); 
-    height: 100%; 
-    width: 100%; 
-    position: relative; 
-    top: 0; 
-    left:  0;
-    z-index: -2; 
-}
 
-.img-nav {
-    display: flex;
 
-    padding: 0px;
-    margin: 0px;
-    left: 0px;
-    position: fixed;
-    top: 0; /* Начало сверху */
-    left:  0;
-}
 
+
+  /* ____________________________general__end__________________________ */
+
+
+
+/* ________________________buttons__start______________________ */
 .type--A{
     --line_color : #555555 ;
     --back_color : #FFECF6  ;
@@ -124,131 +111,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   .button:hover .button__text::after{
       width : calc( 100% - 56px * 2 - 16px ) ;
   }
-  /* .button__drow1,
-  .button__drow2{
-      position: absolute ;
-      z-index : -1 ;
-      border-radius : 16px ;
-      transform-origin : 16px 16px ;
-  }
-  .button__drow1{
-      top : -16px ;
-      left : 40px ;
-      width : 32px ;
-      height : 0;
-      transform : rotate( 30deg ) ;
-  }
-  .button__drow2{
-      top : 44px ;
-      left : 77px ;
-      width : 32px ;
-      height : 0 ;
-      transform : rotate(-127deg ) ;
-  }
-  .button__drow1::before,
-  .button__drow1::after,
-  .button__drow2::before,
-  .button__drow2::after{
-      content : '' ;
-      position : absolute ;
-  }
-  .button__drow1::before{
-      bottom : 0 ;
-      left : 0 ;
-      width : 0 ;
-      height : 32px ;
-      border-radius : 16px ;
-      transform-origin : 16px 16px ;
-      transform : rotate( -60deg ) ;
-  }
-  .button__drow1::after{
-      top : -10px ;
-      left : 45px ;
-      width : 0 ;
-      height : 32px ;
-      border-radius : 16px ;
-      transform-origin : 16px 16px ;
-      transform : rotate( 69deg ) ;
-  }
-  .button__drow2::before{
-      bottom : 0 ;
-      left : 0 ;
-      width : 0 ;
-      height : 32px ;
-      border-radius : 16px ;
-      transform-origin : 16px 16px ;
-      transform : rotate( -146deg ) ;
-  }
-  .button__drow2::after{
-      bottom : 26px ;
-      left : -40px ;
-      width : 0 ;
-      height : 32px ;
-      border-radius : 16px ;
-      transform-origin : 16px 16px ;
-      transform : rotate( -262deg ) ;
-  }
-  .button__drow1,
-  .button__drow1::before,
-  .button__drow1::after,
-  .button__drow2,
-  .button__drow2::before,
-  .button__drow2::after{
-      background : var( --back_color ) ;
-  }
-  .button:hover .button__drow1{
-      animation : drow1 ease-in .06s ;
-      animation-fill-mode : forwards ;
-  }
-  .button:hover .button__drow1::before{
-      animation : drow2 linear .08s .06s ;
-      animation-fill-mode : forwards ;
-  }
-  .button:hover .button__drow1::after{
-      animation : drow3 linear .03s .14s ;
-      animation-fill-mode : forwards ;
-  }
-  .button:hover .button__drow2{
-      animation : drow4 linear .06s .2s ;
-      animation-fill-mode : forwards ;
-  }
-  .button:hover .button__drow2::before{
-      animation : drow3 linear .03s .26s ;
-      animation-fill-mode : forwards ;
-  }
-  .button:hover .button__drow2::after{
-      animation : drow5 linear .06s .32s ;
-      animation-fill-mode : forwards ;
-  }
-  @keyframes drow1{
-      0%   { height : 0 ; }
-      100% { height : 100px ; }
-  }
-  @keyframes drow2{
-      0%   { width : 0 ; opacity : 0 ;}
-      10%  { opacity : 0 ;}
-      11%  { opacity : 1 ;}
-      100% { width : 120px ; }
-  }
-  @keyframes drow3{
-      0%   { width : 0 ; }
-      100% { width : 80px ; }
-  }
-  @keyframes drow4{
-      0%   { height : 0 ; }
-      100% { height : 120px ; }
-  }
-  @keyframes drow5{
-      0%   { width : 0 ; }
-      100% { width : 124px ; }
-  }
-   */
-  
-  
-  
-  
+ 
   
   /* 本体には関係ないスタイル */
+
+  /* ________________________buttons__end______________________ */
+
   .container{
       width : 100% ;
       height : 300px ;
@@ -264,7 +132,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
 
-  /* ________________________________________________________ */
+  /* ____________________________burger menu__start__________________________ */
 
   .links {
     padding: 15px;
@@ -289,7 +157,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     /* padding: 20px; */
     /* background-color: rgba(51, 51, 51, 0.8); */
     position: relative; 
-    z-index: 10; 
+    z-index: 1; 
     align-items:start;
 }
 
@@ -303,8 +171,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     font-size: 24px;
     cursor: pointer;
     padding: 10px;
-    z-index: 1;
+    /* z-index: 1; */
     margin-right: 20px; /* Отступ кнопки от правого края */
+    
 }
 
 .nav-links-burger-mn {
@@ -335,7 +204,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         width: 100%;
         text-align: justify; /* Выравнивание текста по правому краю */
         padding-right: 20px;
-        z-index: -2;
+        /* z-index: -2; */
         color: white;
         
         
@@ -356,6 +225,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     background-color: #b3b3b3;
     padding: 15px;
     margin: 0px;
+    
     
     }
 
@@ -382,12 +252,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         position: absolute;
         right: 0;
         top: 60px; /* Отступ сверху, чтобы меню было ниже кнопки */
-        flex-direction: column;
+        flex-direction: row;
         /* background-color: rgba(51, 51, 51, 0.9);  */
         width: 100%;
         text-align: right; /* Выравнивание текста по правому краю */
         padding-right: 20px;
-        z-index: -2;
+        /* z-index: -2; */
         gap: 10px;
     }
 
@@ -401,7 +271,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     }
     .nav-links-burger-mn.open-burger-mn a{
-        background-color: #b3b3b3;
+        /* background-color: #b3b3b3; */
         
         }
     
@@ -411,7 +281,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     }
 }
 .nav-links-burger-mn a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
     margin-left: 0px;
@@ -419,11 +289,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 }
 
 
+  /* ____________________________burger menu__start__________________________ */
 
 
 
 
+  /* ____________________________burger menu-button__start__________________________ */
+  @media (max-width: 992px) {
+.menu.open-burger-mn {
+    --c: rgb(255, 255, 255); /* the color */
 
+    transition: 0.7s;
+  transition-delay: 0.7s;
+}
+  }
 .menu {
     --s: 30px; /* control the size */
     --c: rgb(0, 0, 0); /* the color */
@@ -451,7 +330,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     -webkit-mask: linear-gradient(90deg,#0000,#000 25% 75%,#0000);
     cursor: pointer;
     transition: 
-      background-position .3s var(--_s,.3s), 
+      background-position .5s var(--_s,.5s), 
       clip-path 0s var(--_s,.6s);
     -webkit-appearance:none;
     -moz-appearance:none;
@@ -464,7 +343,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     border-radius: var(--s);
     inset: 40% 0;
     background: var(--c);
-    transition: transform .3s calc(.3s - var(--_s,.3s));
+    transition: transform .5s calc(.5s - var(--_s,.5s));
   }
   
   .menu:checked {
@@ -482,7 +361,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   .menu.open-burger-mn {
 
-    background-color: #b3b3b3;
+    /* background-color: #ffffff; */
   }
   .menu:focus-visible {
     clip-path: none;
@@ -498,3 +377,42 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     display:grid;
     place-content:center;
   }
+    /* ____________________________burger menu-button__end__________________________ */
+
+
+    .bgimg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./img/mainphotoblk.jpg); 
+        height: 100%; 
+        width: 100%; 
+        position: relative; 
+        top: 0; 
+        left:  0;
+        /* z-index: -2;  */
+    }
+
+    .img-nav {
+        display: flex;
+    
+        padding: 0px;
+        margin: 0px;
+        left: 0px;
+        position: fixed;
+        top: 0; /* Начало сверху */
+        left:  0;
+    }
+    .open-burger-mn-back {
+        background: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      z-index: 5;
+      transition: 0.4s;
+      transition-delay: 0.4s;
+      overflow: hidden;
+    
+    }
