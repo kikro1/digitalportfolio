@@ -327,7 +327,7 @@ a {
         --c: rgb(255, 255, 255); /* the color */
     
         transition: 0.4s;
-      transition-delay: 0.7s;
+      transition-delay: 0.4s;
     }
     .open-burger-mn-back {
       background: black;
