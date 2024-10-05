@@ -15,10 +15,6 @@ a{
 	text-decoration:none
 }
 
-a:hover,a:focus{
-	/* color:#000000; */
-	text-decoration:underline
-}
 
 a:focus,
 .btn:focus {

@@ -520,15 +520,3 @@
   .contact-way {
       flex-direction: column;
   }
-
-  a:hover,
-  a:focus {
-      /* color:#000000; */
-      text-decoration: underline
-
-      
-  }
-/* 
-  section {
-    margin-left: 20px;
-  } */
