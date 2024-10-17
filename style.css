@@ -4,8 +4,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  
 }
+
 
 
 
@@ -327,7 +329,7 @@ a {
         --c: rgb(255, 255, 255); /* the color */
     
         transition: 0.4s;
-      transition-delay: 0.7s;
+      transition-delay: 0.4s;
     }
     .open-burger-mn-back {
       background: black;
@@ -480,3 +482,8 @@ a {
     .contact-way {
       flex-direction: column;
     }
+
+    .skills {
+      margin-bottom: 15px;
+    }
+     
