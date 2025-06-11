@@ -176,9 +176,9 @@ a {
     border: none; /* Убираем границу кнопки */
     font-size: 24px;
     cursor: pointer;
-    padding: 10px;
+    /* padding: 10px; */
     /* z-index: 1; */
-    margin-right: 20px; /* Отступ кнопки от правого края */
+    margin: 20px 0px 0px 20px; /* Отступ кнопки от правого края */
     
 }
 
